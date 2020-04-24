@@ -29,13 +29,12 @@ class School
     @roster.each do |key, values|
       @roster[key] = values.sort
     end
-
   end
 
 
 end
 
-school = School.new("Bayside High School")
-# roster1 = {}
-school.add_student("Screech", 11)
-binding.pry
+# school = School.new("Bayside High School")
+# # roster1 = {}
+# school.add_student("Screech", 11)
+# binding.pry
