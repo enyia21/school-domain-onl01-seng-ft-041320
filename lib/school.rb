@@ -1,4 +1,5 @@
 # code here!
+require "pry"
 class School
 
   def initialize(roster={})
@@ -6,8 +7,9 @@ class School
   end
 
   def add_student=(name, grade)
-    school_roster_hash = []
-    school_roster_hash[grade] <<
+    
+    @roster[grade] << name
+    
 
 end
 
