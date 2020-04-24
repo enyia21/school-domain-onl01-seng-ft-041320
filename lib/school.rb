@@ -14,3 +14,4 @@ class School
 end
 
 "Bayside High School" = School.new
+binding.pry
