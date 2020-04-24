@@ -28,8 +28,8 @@ class School
     #add key-value pairs to an array that is returned  to the user
     @roster.each do |key, values|
       @roster[key] = values.sort
-    end 
-    
+    end
+
   end
 
 
