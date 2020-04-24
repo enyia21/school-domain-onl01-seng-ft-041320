@@ -7,7 +7,6 @@ class School
   end
 
   def add_student=(name, grade)
-
     @roster[grade] << name
   end
 
@@ -15,5 +14,5 @@ class School
 end
 
 Bayside = School.new
-roster1 = {}
+# roster1 = {}
 binding.pry
