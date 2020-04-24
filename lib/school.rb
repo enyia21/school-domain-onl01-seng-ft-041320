@@ -1,12 +1,12 @@
 # code here!
-class School 
-  
+class School
+
   def initialize(roster={})
     @roster = roster
   end
 
   def add_student=(name, grade)
     school_roster_hash = []
-    school_roster_hash[grade] << 
-    
+    school_roster_hash[grade] <<
+
 end
