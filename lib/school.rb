@@ -17,7 +17,7 @@ class School
 
 end
 
-Bayside_High_School = School.new
+school = School.new("Bayside High School")
 # roster1 = {}
 # Bayside_High_School.add_student("Screech", 11)
 binding.pry
