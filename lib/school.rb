@@ -16,7 +16,20 @@ class School
       else
         @roster[grade] << name
       end
+  end
 
+  def grade(grade)
+    @roster[grade]
+  end
+
+  def sort
+    #I want to iterate over the array sorting by key
+    #when the lowest key is found I wouand to loop over the array and sort by names
+    #add key-value pairs to an array that is returned  to the user
+    @roster.each do |key, values|
+      @roster[key] = values.sort
+    end 
+    
   end
 
 
