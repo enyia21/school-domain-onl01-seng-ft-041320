@@ -10,3 +10,5 @@ class School
     school_roster_hash[grade] <<
 
 end
+
+"Bayside High School" = School.new
