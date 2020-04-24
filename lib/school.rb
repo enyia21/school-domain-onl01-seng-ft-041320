@@ -15,4 +15,5 @@ class School
 end
 
 Bayside = School.new
+roster1 = {}
 binding.pry
