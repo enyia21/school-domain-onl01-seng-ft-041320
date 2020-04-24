@@ -13,9 +13,9 @@ class School
       if @roster[grade] == nil
         @roster[grade] = []
         @roster[grade] << name
-      else 
+      else
         @roster[grade] << name
-        
+
 
   end
 
